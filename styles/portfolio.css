@@ -1,5 +1,7 @@
 /*Common shared styles*/
-
+* {
+  font-family: Open Sans;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -114,6 +116,10 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+main section {
+  margin-top: 130px;
+}
 /*about section styles*/
 .about {
   padding: 130px;
@@ -143,4 +149,35 @@ main {
   font-family: open sans;
   font-size: 20px;
   font-weight: 400;
+}
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+/*Skills related styles*/
+
+.skills-container {
+  display: flex;
+}
+
+.skills {
+  padding: 30px;
+  gap: 24px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  margin-right: 24px;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skill-title {
+  color: #181818;
+
+  font-size: 20px;
+  font-weight: 700;
 }
